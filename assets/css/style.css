@@ -18,6 +18,11 @@ a {
   color: #009cea;
   text-decoration: none;
 }
+@media screen and (min-width: 90px) and (max-width: 280px) {
+  .form-check-label {
+    display: none;
+  }
+}
 
 a:hover {
   color: #1eb4ff;
