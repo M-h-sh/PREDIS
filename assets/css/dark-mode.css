@@ -1,0 +1,262 @@
+  
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .dark-mode #header {
+    background: #2d2d2d; /* Adjust header background color for dark mode */
+    color: #ccc; /* Adjust header text color for dark mode */
+  }
+  
+  .dark-mode #header .logo h1 a,
+  .dark-mode #header .logo h1 a:hover {
+    color: #b0c4ce; /* Adjust logo color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* ... (rest of your styles) */
+  .dark-mode .navbar a,
+  .dark-mode .navbar a:focus {
+    color: #b0c4ce; /* Adjust navigation link color for dark mode */
+  }
+  
+  .dark-mode .navbar a:hover,
+  .dark-mode .navbar .active,
+  .dark-mode .navbar .active:focus,
+  .dark-mode .navbar li:hover > a {
+    color: #00bfff; /* Adjust navigation link hover color for dark mode */
+  }
+  
+  .dark-mode .navbar .dropdown ul a {
+    color: #003651; /* Adjust dropdown link color for dark mode */
+  }
+  
+  .dark-mode .navbar .dropdown ul a:hover,
+  .dark-mode .navbar .dropdown ul .active:hover,
+  .dark-mode .navbar .dropdown ul li:hover > a {
+    color: #00bfff; /* Adjust dropdown link hover color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  .dark-mode #hero img.img-fluid {
+    content: url("../img/predis22.png"); /* Use a different image in dark mode */
+    filter: brightness(100%); /* Adjust image brightness for dark mode */
+}
+  
+  .dark-mode #hero h1,
+  .dark-mode #hero h2 {
+    color: #b0c4ce; /* Adjust heading text color for dark mode */
+  }
+  
+  .dark-mode #hero .btn-get-started {
+    background: #00bfff; /* Adjust button background color for dark mode */
+    color: #fff; /* Adjust button text color for dark mode */
+  }
+  
+  .dark-mode #hero .btn-get-started:hover {
+    background: #0080ff; /* Adjust button hover background color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  .dark-mode section {
+    background-color: #252525; /* Adjust section background color for dark mode */
+    color: #ccc; /* Adjust section text color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  .dark-mode .about .container {
+    background-color: #1e1e1e; /* Adjust container background color for dark mode */
+  }
+  body.dark-mode{
+    background-color: #252525;
+    color: #ccc; /* Adjust container background color for dark mode */
+  }
+  .dark-mode .about .content h3 {
+    color: #b0c4ce; /* Adjust heading text color for dark mode */
+  }
+  
+  .dark-mode .about .content ul i {
+    color: #28a745; /* Adjust icon color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # Features
+  --------------------------------------------------------------*/
+  .dark-mode .features {
+    background-color: #252525; /* Adjust background color for dark mode */
+  }
+  
+  .dark-mode .features .nav-tabs,
+  .dark-mode .features .nav-link,
+  .dark-mode .features .tab-pane.active {
+    color: #ccc; /* Adjust text color for dark mode */
+  }
+  
+  .dark-mode .features .nav-link h4 {
+    color: #b0c4ce; /* Adjust heading text color for dark mode */
+  }
+  
+  .dark-mode .features .nav-link:hover,
+  .dark-mode .features .nav-link.active {
+    background: #383838; /* Adjust background color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+  .dark-mode .services .icon-box {
+    background: #201f1f; /* Adjust background color for dark mode */
+    color: #ccc; /* Adjust text color for dark mode */
+  }
+  
+  .dark-mode .services .title a {
+    color: #ccc; /* Adjust link color for dark mode */
+  }
+  
+  .dark-mode .services .icon-box-pink .icon i {
+    color: #ff4081; /* Adjust icon color for dark mode */
+  }
+  
+  /* ... (rest of your styles) */
+  
+  /*--------------------------------------------------------------
+  # Portfolio
+  --------------------------------------------------------------*/
+  .dark-mode .portfolio .portfolio-item {
+    background: #1b1b1b; /* Adjust background color for dark mode */
+    color: #ccc; /* Adjust text color for dark mode */
+  }
+  
+  .dark-mode .portfolio #portfolio-flters li,
+  .dark-mode  .portfolio .portfolio-wrap .portfolio-info h4,
+  .dark-mode .portfolio .portfolio-wrap .portfolio-info p,
+  .dark-mode .portfolio .portfolio-wrap .portfolio-links a {
+    color: #b0c4ce; /* Adjust text color for dark mode */
+  }
+/* Add these styles to your dark-mode.css file or within the existing dark mode styles */
+
+/* Dark mode styling for FAQ Section */
+.dark-mode #faq {
+    background-color: #292828; /* Dark background color for the FAQ section */
+    color: #fff; /* Light text color for dark mode */
+}
+
+.dark-mode .faq-list li {
+    border-bottom: 1px solid #555;
+    color: #fff; /* Dark border color between FAQ items */
+}
+
+.dark-mode div.collapsed.question {
+    color: #fff; /* Light text color for the question in dark mode */
+}
+
+.dark-mode .question i {
+    color: #fff; /* Light icon color for the question in dark mode */
+}
+
+/* Dark mode styling for Contact Section */
+.dark-mode #contact {
+    background-color: #1c1b1b; /* Dark background color for the Contact section */
+    color: #fff; /* Light text color for dark mode */
+}
+
+.dark-mode .section-title h2 {
+    color: #fff; /* Light title color for dark mode */
+}
+
+.dark-mode .info {
+    background-color: #272626; /* Dark background color for the info box */
+    color: #fff;
+    border: none; /* Light text color for dark mode */
+}
+
+.dark-mode .info i {
+    background-color: #070707;
+    color: rgb(116, 174, 209); /* Light icon color for the info box */
+}
+.dark-mode .info h4 {
+    color: #fff; /* Light icon color for the info box */
+}
+.dark-mode .info p {
+    color: #fff; /* Light icon color for the info box */
+}
+/* Add these styles to your dark-mode.css file or within the existing dark mode styles */
+
+.dark-mode .php-email-form {
+    background-color: #272626; /* Dark background color for the form */
+    color: #fff;
+    border: none; /* Light text color for dark mode */
+}
+
+.dark-mode .php-email-form label {
+    color: #fff; /* Light label color for dark mode */
+}
+
+.dark-mode .php-email-form button {
+    background-color: #212121; /* Dark button background color for dark mode */
+    color: #fff; /* Light text color for the button in dark mode */
+}
+
+.dark-mode .php-email-form button:hover {
+    background-color: #777; /* Dark button background color on hover in dark mode */
+}
+
+.dark-mode .php-email-form .form-control{
+    border: none;
+    background-color: #0e0e0e;
+    color: #fff; /* Dark background color for the checked state */
+    box-shadow: none; /* Optional: Remove box-shadow for a flat look */
+}
+
+/* Add these styles to your dark-mode.css file or within the existing dark mode styles */
+
+.dark-mode .modal-content {
+    background-color: #333; /* Dark background color for the modal content */
+    color: #fff; /* Light text color for dark mode */
+}
+
+.dark-mode .modal-header {
+    background-color: #444; /* Dark background color for the modal header */
+    color: #fff; /* Light text color for dark mode */
+}
+
+.dark-mode .modal-title {
+    color: #fff; /* Light title color for dark mode */
+}
+
+.dark-mode .modal-body {
+    background-color: #333; /* Dark background color for the modal body */
+}
+
+.dark-mode .modal-footer {
+    background-color: #444; /* Dark background color for the modal footer */
+}
+
+.dark-mode .btn-secondary {
+    background-color: #555; /* Dark button background color for dark mode */
+    color: #fff; /* Light text color for the button in dark mode */
+}
+
+.dark-mode .btn-secondary:hover {
+    background-color: #777; /* Dark button background color on hover in dark mode */
+    color: #fff; /* Light text color for the button on hover in dark mode */
+}
