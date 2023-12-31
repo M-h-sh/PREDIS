@@ -260,3 +260,12 @@
     background-color: #777; /* Dark button background color on hover in dark mode */
     color: #fff; /* Light text color for the button on hover in dark mode */
 }
+.dark-mode .header-social-links a {
+  color: #a4d0e4;
+}
+.dark-mode .navbar-mobile ul {
+  background-color: #0d0d0d;
+}
+.dark-mode .mobile-nav-toggle {
+  color:#a4d0e4;
+}
